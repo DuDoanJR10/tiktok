@@ -1,0 +1,81 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    height: var(--default-layout-header-height);
+    background-color: var(--white);
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: var(--default-layout-width);
+    max-width: 1150px;
+    padding-right: 24px;
+    padding-left: 20px;
+}
+
+.logo-link {
+    display: flex;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+
+    .more-button {
+        padding: 4px 8px;
+        font-size: 2rem;
+        margin-left: 28px;
+        cursor: pointer;
+        background-color: transparent;
+    }
+}
+
+.action-btn {
+    position: relative;
+    display: flex;
+    color: #161823;
+    font-size: 2.2rem;
+    background-color: transparent;
+    padding: 4px 12px;
+    cursor: pointer;
+
+    &.upload {
+        padding: 6px 12px;
+    }
+
+    &.mailbox {
+        padding: 1px 12px;
+    }
+}
+
+.badge {
+    position: absolute;
+    top: -3px;
+    right: 0;
+    padding: 0px 6px;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    margin-left: 14px;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 50%;
+}

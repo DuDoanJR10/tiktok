@@ -1,0 +1,48 @@
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 0;
+    max-width: 692px;
+}
+
+.tag-a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+}
+
+.nickname {
+    font-family: SofiaPro, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 25px;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.avatar {
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.container {
+    margin-left: 12px;
+    width: 624px;
+}
+
+.info {
+    margin-right: 114px;
+}
+
+.video {
+    height: 400px;
+    background-color: aqua;
+}

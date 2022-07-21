@@ -1,0 +1,17 @@
+.parent {
+    width: 356px;
+}
+
+.wrapper {
+    top: 60px;
+    bottom: 0;
+    width: 356px;
+    background: rgba(255, 255, 255, 1);
+    position: fixed;
+    z-index: 8;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    padding-right: 8px;
+    padding: 20px 0 26px 8px;
+}
