@@ -32,8 +32,9 @@ function InputSearch() {
 
         const fetchApi = async () => {
             setLoading(true);
+            console.log('debounceValue: ', debounceValue);
             const result = await searchServices.search(debounceValue);
-            console.log(result);
+            console.log('result: ', result);
             setSearchResult(result);
             setLoading(false);
         };

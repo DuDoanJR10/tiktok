@@ -20,7 +20,7 @@ const cx = classNames.bind(styles);
 const SugAccounts = [
     {
         id: 1,
-        avatar: 'https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/29edd0a826772c6ef5a39ea5cb86134b.jpeg?x-expires=1658397600&x-signature=mSmSDUfJFfAmB1ewk9SUeTwUuks%3D',
+        avatar: '',
         full_name: 'dudoanjr',
         nickname: 'Du Doan',
         followers: '17',
@@ -29,25 +29,25 @@ const SugAccounts = [
     },
     {
         id: 2,
-        avatar: '/https://scontent.fhan15-2.fna.fbcdn.net/v/t1.6435-9/148985770_176097087641595_863917603171557104_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=ad2b24&_nc_ohc=tcDyCnQKDhgAX_ZlUNZ&tn=DcOUJ_ilZamvTKmY&_nc_ht=scontent.fhan15-2.fna&oh=00_AT-uAlcjABe8JjeV-LQb3tYSRKdvejueyhrVa9tk_bpSXQ&oe=62FC4C71',
-        full_name: 'Nguyen Ngoc Thanhh',
-        nickname: 'My Love',
+        avatar: '',
+        full_name: 'Messi',
+        nickname: 'My Idol',
         followers: '4.5M',
         like: '10.5M',
         tick: true,
     },
     {
         id: 3,
-        avatar: 'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/1c60bd6f6e3f9647081fda5206dcbfd9~c5_100x100.jpeg?x-expires=1657443600&x-signature=GCOFzexPILqm7doDkqC2gRqUBa4%3D',
-        full_name: 'thinkaboutisyou_',
-        nickname: '@th',
+        avatar: '',
+        full_name: 'dudoanjr10',
+        nickname: 'dukick',
         followers: '9',
         like: '0',
         tick: true,
     },
     {
         id: 4,
-        avatar: 'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/65d3c6b1d1e205c75536ccf1f26d552d~c5_100x100.jpeg?x-expires=1658401200&x-signature=WPKCkFmPinSsrsP2q%2BecxvRbTwk%3D',
+        avatar: '',
         full_name: 'theanh28entertainment',
         nickname: 'Theanh28 Entertainment',
         followers: '6.4M',
@@ -56,7 +56,7 @@ const SugAccounts = [
     },
     {
         id: 5,
-        avatar: 'https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/f485490f970a0c1ccbf158b9e468450b~c5_100x100.jpeg?x-expires=1658397600&x-signature=XWsXY2i3MH%2FluLDz%2BCY5lCSW2B8%3D',
+        avatar: '',
         full_name: 'vtv24news',
         nickname: 'VTV24',
         followers: '5.1M',
@@ -68,7 +68,7 @@ const SugAccounts = [
 const FollowAccounts = [
     {
         id: 1,
-        avatar: '/https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/29edd0a826772c6ef5a39ea5cb86134b.jpeg?x-expires=1658397600&x-signature=mSmSDUfJFfAmB1ewk9SUeTwUuks%3D',
+        avatar: '',
         full_name: 'Du Doan Van',
         nickname: 'Du Doan',
         followers: '17',
@@ -77,34 +77,34 @@ const FollowAccounts = [
     },
     {
         id: 2,
-        avatar: '/https://scontent.fhan15-2.fna.fbcdn.net/v/t1.6435-9/148985770_176097087641595_863917603171557104_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=ad2b24&_nc_ohc=tcDyCnQKDhgAX_ZlUNZ&tn=DcOUJ_ilZamvTKmY&_nc_ht=scontent.fhan15-2.fna&oh=00_AT-uAlcjABe8JjeV-LQb3tYSRKdvejueyhrVa9tk_bpSXQ&oe=62FC4C71',
-        full_name: 'Ngoc Thanhh',
-        nickname: 'My Love',
+        avatar: '',
+        full_name: 'Manchester United',
+        nickname: 'My Club',
         followers: '4.5M',
         like: '10.5M',
         tick: false,
     },
     {
         id: 3,
-        avatar: '/https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/1c60bd6f6e3f9647081fda5206dcbfd9~c5_100x100.jpeg?x-expires=1657443600&x-signature=GCOFzexPILqm7doDkqC2gRqUBa4%3D',
-        full_name: 'thinkaboutisyou_',
-        nickname: '@th',
+        avatar: '',
+        full_name: 'My Story',
+        nickname: '@mystory',
         followers: '9',
         like: '0',
         tick: true,
     },
     {
         id: 4,
-        avatar: '/https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-aiso/65d3c6b1d1e205c75536ccf1f26d552d~c5_100x100.jpeg?x-expires=1658401200&x-signature=WPKCkFmPinSsrsP2q%2BecxvRbTwk%3D',
+        avatar: '',
         full_name: 'Radio Status',
-        nickname: 'So Happy',
+        nickname: 'So Sad',
         followers: '6.4M',
         like: '398',
         tick: false,
     },
     {
         id: 5,
-        avatar: '/https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/f485490f970a0c1ccbf158b9e468450b~c5_100x100.jpeg?x-expires=1658397600&x-signature=XWsXY2i3MH%2FluLDz%2BCY5lCSW2B8%3D',
+        avatar: '',
         full_name: 'vtv24news',
         nickname: 'VTV24',
         followers: '5.1M',
@@ -117,7 +117,7 @@ const DiscoverList = [
     {
         different: true,
         music: false,
-        title: 'My Love',
+        title: 'My Story',
     },
     {
         different: true,
@@ -127,7 +127,7 @@ const DiscoverList = [
     {
         different: true,
         music: false,
-        title: 'Nguyen Ngoc Thanh',
+        title: 'Neymar',
     },
     {
         different: false,
@@ -142,7 +142,7 @@ const DiscoverList = [
     {
         different: false,
         music: true,
-        title: 'Send My Love - Ngoc Thanhh',
+        title: 'Send My Love - My Story',
     },
     {
         different: false,
@@ -157,16 +157,16 @@ const Copyrights = [
             title: 'Du Doan ',
         },
         {
-            title: 'Ngoc Thanhh',
+            title: 'Messi',
         },
         {
-            title: 'My love',
+            title: 'My Story',
         },
         {
             title: 'I Need You',
         },
         {
-            title: 'Messi',
+            title: 'Neymar',
         },
         {
             title: 'Do What You Like',
