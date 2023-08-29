@@ -26,6 +26,8 @@ import classNames from 'classnames/bind';
 import styles from './Header.module.scss';
 const cx = classNames.bind(styles);
 
+const image = require('../../assets/images/DuDoan.png');
+
 function Header() {
     const currentUser = true;
 
@@ -134,7 +136,7 @@ function Header() {
         {
             icon: <FontAwesomeIcon icon={faUser} />,
             title: 'View profile',
-            to: '/@thanhh',
+            to: '/@messi',
         },
         {
             icon: <FontAwesomeIcon icon={faCoins} />,
@@ -201,11 +203,7 @@ function Header() {
                     )}
                     <Menu onChange={handleMenuChange} items={currentUser ? userMenu : MENU_ITEMS}>
                         {currentUser ? (
-                            <Image
-                                src="https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/1c60bd6f6e3f9647081fda5206dcbfd9~c5_100x100.jpeg?x-expires=1657443600&x-signature=GCOFzexPILqm7doDkqC2gRqUBa4%3D"
-                                className={cx('user-avatar')}
-                                alt="Username"
-                            />
+                            <Image src={image} className={cx('user-avatar')} alt="Username" />
                         ) : (
                             <button className={cx('more-button')}>
                                 <FontAwesomeIcon icon={faEllipsisVertical} />
